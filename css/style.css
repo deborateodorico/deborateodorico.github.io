@@ -1,1 +1,26 @@
 h1,h3{color:cornflowerblue}
+
+body{
+    background-color: #a0c4ff;
+}
+
+#name{
+    font-family: 'Open Sans', sans-serif;
+}
+
+#description{
+    font-family: 'Courier New', Courier, monospace;
+    font-style:oblique;
+}
+
+.about{
+    text-align: left;
+    font-weight: bold;
+    font-size:40px;
+
+}
+
+.blog{
+    font-weight: bold;
+    font-size:15px;
+}
