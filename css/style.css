@@ -130,6 +130,7 @@ body {
 .computer-image {
   max-width: 860px;
   margin-top: 70px; 
+  width: 100%;
 }
 
 .about-section {
