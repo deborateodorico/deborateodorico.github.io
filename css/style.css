@@ -636,12 +636,13 @@ text-align: center;
 .copyright {
   display: flex;
   text-align: center;
-  gap: 4px;
+  gap: 5px;
   opacity: 0.8;
   font-family: 'europa', sans-serif;
   line-height: 1.5;
   font-size: 18px;
   font-weight: 300;
+  text-align: center;
 }
 
 .icon-span {
@@ -978,11 +979,12 @@ text-align: center;
 
   .computer-image {
     max-width: 330px;
-    left: 40px;
+    /* left: 40px; */
+    align-items: center;
   }
 
   .about-section {
-    margin-top: 400px;
+    /* margin-top: 400px;s */
   }
 
   .about-container {
@@ -994,7 +996,7 @@ text-align: center;
   }
 
   .skills-section {
-    max-width: 340px;
+    /* max-width: 340px; */
   }
 
   .skills-container {
@@ -1011,5 +1013,52 @@ text-align: center;
 
   .my-work-title {
     font-size: 20px;
+  }
+
+  .testimonials-section {
+    padding: 70px 30px;
+  }
+
+  .testimonials-title {
+    font-size: 22px;
+  }
+
+  .testimonials-subtitle {
+  font-size: 14px;
+  margin-bottom: 30px;
+  }
+
+  .testimonials-role {
+    font-size: 14px;
+  }
+
+  .slider {
+    height: 520px;
+  }
+
+  .carousel-nav {
+    gap: 15px
+  }
+
+  .start-project-title {
+    font-size: 22px;
+  }
+
+  .start-project-paragraph {
+    font-size: 14px;
+  }
+
+  .start-project-link {
+    font-size: 14px;
+  }
+
+  .footer-title {
+    font-size: 22px;
+    width: 300px;
+  }
+
+  .copyright {
+    width: 300px;
+    font-size: 14px;
   }
 }
